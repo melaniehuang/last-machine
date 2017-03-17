@@ -1,50 +1,21 @@
 <html>
 <head>
-  <script language="javascript" type="text/javascript" src="/scripts/p5.js"></script>
-  <script language="javascript" type="text/javascript" src="/scripts/processing/rothko.js"></script>
+  <script language="javascript" type="text/javascript" src="/js/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="/js/machina.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Titillium+Web:200' rel='stylesheet' type='text/css'></link>
- 
-  <style> 
-    body {
-      padding: 0; 
-      margin: 0;
-    }
-
-    h1 {
-    	position:absolute;
-      height:140px;
-      width: 760px;
-      top: calc(50% - 140px/2);
-      left: calc(50% - 760px/2);
-    	font-family: 'Titillium Web', sans-serif;
-      font-weight: 400;
-      font-size: 60px;
-      color:white;
-    	text-align: center;
-    	margin: 0 auto;
-      letter-spacing: 0px;
-      line-height: 68px;
-    }
-
-    h2 {
-      position:absolute;
-      height:30px;
-      width: 200px;
-      padding:4px 4px 4px 0px;
-      left: calc(50% - 200px/2);
-      font-family: 'Titillium Web', sans-serif;
-      font-weight: 900;
-      font-size: 16px;
-      color:white;
-      text-align: center;
-      margin: 0 auto;
-      background-color: red;
-    }
-  </style>
+  <link href="/style.css" rel="stylesheet" type="text/css"</link> 
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<!--       <h2>CLICK & GENERATE</h2>
-      <h1>A SANDBOX FOR<br>THE SUBCONSCIOUS MIND</h1> -->
+  <div id ="instructions">
+    Hit [ ENTER ]</br>
+  	Hit [ UP ARROW ]</br>
+  	Hit [ SPACEBAR ]
+  </div>
+
+  <div id = "rothkoCanvas">
+  </div>
 </body>
+
 </html>
