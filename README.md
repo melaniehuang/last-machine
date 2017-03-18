@@ -8,4 +8,4 @@ HOLD AND RELEASE [ UP ARROW ]
 HOLD AND RELEASE [ DOWN ARROW ]
 HIT [ ENTER ]
 
-(!http://i.imgur.com/fARrEKf.jpg)
+![Demo](http://i.imgur.com/fARrEKf.jpg)
